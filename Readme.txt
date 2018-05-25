@@ -25,11 +25,10 @@ How to Install.
  2. Import .sql file (available in extra folder).
  3. Goto folder(functions) and edit file(connection.php), change your hostname, username and password.
  4. In functions folder open "func.php" and edit line 45 . -> CURLOPT_URL => 'https://api.dynu.com/nic/update?hostname=[Your_Host_Name eg google.com]&myip=$ip&password=[your DYNU password in MD5 format]',
- Edit Your Hostname eg google.com or youtube.com and insert your http://dynu.com password[in MD5 format] in password field
- Save and exit the file
+ Edit Your Hostname eg google.com or youtube.com and insert your http://dynu.com password[should be in MD5 format] in password field
+ Save and exit.
  
- 
-  How to Convert your DYNU password in MD5 has  format -
+  How to Convert your DYNU password in MD5 hash  format -
   link to convert password -> http://www.md5.cz/
   
   Example-
@@ -37,7 +36,17 @@ How to Install.
   Password in MD5  = eb61eead90e3b899c6bcbe27ac581660
   
   
+  How to Execute PHP script automatically ?
+  - Install Cron jobs [Search on google]
+  - Create  2 cron Jobs [for every minute & for every Boot].
   
- 
- 
- 
+    Example - >
+	* * * * * /path/to/php /var/www/ip/index.php
+	
+	NOTE- Always set cron job for index.php .
+	
+	#sorry for bad English ;-)
+	
+	For any questions write an email to 'iamrajneesh594@gmail.com'
+	
+	
