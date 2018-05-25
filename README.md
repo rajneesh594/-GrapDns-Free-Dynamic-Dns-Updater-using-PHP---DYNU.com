@@ -3,8 +3,11 @@ How to Install.
 
  Requirements :
  For Raspbian OS/DEBIAN :
+ 
  1.Install Apache server.
+ 
  2.Install MYSQL server.
+ 
  3.Install PHP
  
  Install XAMPP for Windows :
