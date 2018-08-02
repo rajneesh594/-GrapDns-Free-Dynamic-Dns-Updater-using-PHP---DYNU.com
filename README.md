@@ -7,10 +7,10 @@ How to Install.
  2.Install MYSQL server.
  3.Install PHP
  
- Install XAMPP for Windows :
+ For Windows  :
  https://www.apachefriends.org/download.html
  
- XAMPP for Linux :
+ For Linux (Kernel) :
  https://www.apachefriends.org/download.html
  
  Install XAMPP for OS X :
