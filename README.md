@@ -13,7 +13,7 @@ How to Install.
  For Linux (Kernel) :
  https://www.apachefriends.org/download.html
  
- Install XAMPP for OS X :
+For OS X :
  https://www.apachefriends.org/download.html
  
  
