@@ -35,7 +35,7 @@ For OS X :
   
   Example-
   Password  = HELLO
-  Password in MD5  = eb61eead90e3b899c6bcbe27ac581660
+  Password[HELLO] in MD5  = eb61eead90e3b899c6bcbe27ac581660
   
   
   How to Execute PHP script automatically ?
