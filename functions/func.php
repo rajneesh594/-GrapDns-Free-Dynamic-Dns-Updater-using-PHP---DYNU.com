@@ -2,9 +2,18 @@
      
    {
        function get_ip()//for getting ip
-       {
-            $get_ip = file_get_contents('https://api.ipify.org');
-            return ($get_ip);
+      {
+        $ip = $_REQUEST['REMOTE_ADDR']; // the IP address to query
+        $query = @unserialize(file_get_contents('http://ip-api.com/php'.$ip));
+        if($query && $query['status'] == 'success')
+        {
+          $get_ip=$query['query'];
+          return ($get_ip);
+        }else 
+        {
+           return ("error");
+        }   
+           
        }
        
        function check($ip)
