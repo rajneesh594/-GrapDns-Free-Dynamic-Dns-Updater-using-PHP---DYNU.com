@@ -7,5 +7,6 @@
        echo "<br>";
        $mes=check($ip);  
        echo "$mes";    
+      echo "X";
 }
 ?>
